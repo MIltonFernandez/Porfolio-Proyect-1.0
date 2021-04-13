@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white: #fff; 
+  --primary-orange: #f9ab00; 
+  --primary-dark: rgba(255, 255, 255, 0);
+}
+body {
+  font-family: "Roboto Condensed" sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  width: 0.25rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-orange);
+}
+
+.nombre {
+  color: #f9ab00;
+  font-size: 10vh;
+}
+
+/******************************NAVBAR****************************/
+.logo {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px){
+  .navbar-brand {
+    width: 7rem !important;
+  }
+
+  .logo {
+    margin-left: 0rem;
+    width: 5rem;
+    height: 3rem;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-text {
+  text-decoration: none;
+  color: var(--primary-white) !important;
+  font-size: .9rem;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-text:hover {
+  text-decoration: none;
+}
+.navbar-toggler {
+  transition: all 1s ease-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/******************************MENU LINKS***********************/
+.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav{
+  z-index: 2; /* Está más adelante que las particulas */
+}
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark); /*Le pongo un borde para que no salte hacia abajo con el active*/
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange); /*solid porque es continuo*/
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
