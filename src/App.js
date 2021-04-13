@@ -13,6 +13,7 @@ import Header from "./components/header";
 import Album from "./components/album";
 import About from "./components/About";
 import Contacto from "./components/Contact";
+import Footer from "./components/footer";
 
 
 function App() {
@@ -24,16 +25,19 @@ function App() {
     <Route path = "/Proyectos">
           <Navbar />
           <Album/>
+          <Footer/>
     </Route>
 
     <Route path = "/About">
           <Navbar />
           <About/>
+          <Footer/>
     </Route>
 
     <Route path = "/Contacto">
           <Navbar />
           <Contacto/>
+          <Footer/>
     </Route>
     
 

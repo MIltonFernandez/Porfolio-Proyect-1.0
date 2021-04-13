@@ -11,8 +11,10 @@ import {
 const header = () => {
     return (
         <div className ="header-wraper">
+            <div className = "fade-in-text">
             <div className = "main-info">
                 <h1 className = "titulo-principal"><b>Hola, <br></br>Mi nombre es <br></br> <span className ="nombre">Milton Fernández </span></b></h1>
+            
             <Typed
             className="Typed-text"
             strings={["Desarrollador web", "Técnico electrónico", "Estudiante de ingenieria informática"]}
@@ -26,6 +28,7 @@ const header = () => {
             <a className = "gitlab" href = "https://gitlab.com/Milton1254" target ="_blank"><i class="fab fa-gitlab"></i></a>
             <a className = "github" href = "https://github.com/MIltonFernandez" target="_blank"><i class="fab fa-github"></i></a>
             </span>
+            </div>
             </div>
         </div>
         )

@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import Resume from '../components/img/CV - Milton Fernández.pdf';
 import Foto_perfil from '../components/img/Foto perfil blanco 1.png';
 import Button from '@material-ui/core/Button';
-import {
-   BrowserRouter as Router,
-   Switch,
-   Route,
-   Link
- } from "react-router-dom";
+
 
 const About = () => {
    return (
