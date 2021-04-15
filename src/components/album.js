@@ -90,7 +90,7 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href = "https://puckie.com.ar/" target = "_blank">
                       Ver
                     </Button>
                   </CardActions>
