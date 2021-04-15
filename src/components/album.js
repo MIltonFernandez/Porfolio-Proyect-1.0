@@ -84,9 +84,8 @@ export default function Album() {
                     </Typography>
                     <Typography>
                     Web de publicidad de producto, facilitando la llegada de clientes
-                     y aumentando las ventas.<br></br>Utilización de
-                    HTML, CSS, Boostrap, JS y productos de Google
-                    Firebase. Además del hosting y dominios
+                     y aumentando las ventas. También cuenta con un formulario de contacto<br></br>Utilización de
+                    HTML, CSS, Boostrap, JS, además del hosting y dominios
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -114,7 +113,7 @@ export default function Album() {
                     Web de sistema de gestión, facilitando el registro de 
                     compra de materiales y ventas de productos.<br></br> Utilización de
                     HTML, CSS, Boostrap, JS y productos de Google
-                    Firebase. Además del hosting y dominios
+                    Firebase (authentication y realtime database), además del hosting y dominios
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -168,7 +167,7 @@ export default function Album() {
                       Portfolio
                     </Typography>
                     <Typography>
-                      Portfolio personal hecho con React JS, Cloud Firestore, Material UI y Boostrap.<br></br>
+                      Portfolio personal hecho con React JS, FIrebase Cloud Firestore, Material UI y Boostrap.<br></br>
                       Proyecto hosteado en Netlify.
                     </Typography>
                   </CardContent>
