@@ -112,6 +112,16 @@ nav ul li {
   z-index: 2;
 }
 
+.Iconos-proyects {
+  font-size: 4vh;
+}
+
+.Iconos-proyects > a > i{
+  margin: 1rem;
+  text-decoration: none;
+  color: grey;
+}
+
 .Iconos > a > i{
   margin: 2rem;
   text-decoration: none;
@@ -140,6 +150,10 @@ nav ul li {
 
 .github :hover {
   color: #f4cbb2;
+}
+
+.rosa :hover {
+  color: #ff97d9;
 }
 
 .fade-in-text {
@@ -230,6 +244,7 @@ nav ul li {
   overflow: hidden;
   width: 540px;
 }
+
 .image-box img {
   max-width: 100%;
   transition: all 0.3s;
