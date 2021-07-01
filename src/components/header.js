@@ -27,6 +27,7 @@ const header = () => {
             <a className = "Linkedin" href= "https://www.linkedin.com/in/milton-fernandez-b259111b6/" target ="_blank"><i class="fab fa-linkedin"></i></a>
             <a className = "gitlab" href = "https://gitlab.com/Milton1254" target ="_blank"><i class="fab fa-gitlab"></i></a>
             <a className = "github" href = "https://github.com/MIltonFernandez" target="_blank"><i class="fab fa-github"></i></a>
+            <a className = "Iconos work" ><Link to = "/Proyectos"><i class="fas fa-briefcase"></i></Link></a>
             </span>
             </div>
             </div>

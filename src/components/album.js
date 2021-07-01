@@ -87,7 +87,7 @@ export default function CenteredGrid() {
                     </CardContent>
                     <CardActions>
                       <span className = "Iconos-proyects">
-                      <a className = "gitlab" href = "https://gitlab.com/etrr/1420-tel/2020/web/puckie" target ="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                      <a className = "gitlab" href = "https://puckie.com.ar/" target ="_blank"><i class="fas fa-external-link-square-alt"></i></a>
                       <a className = "gitlab" href = "https://gitlab.com/etrr/1420-tel/2020/web/puckie" target ="_blank"><i class="fab fa-gitlab"></i></a>
                       </span>
                     </CardActions>
@@ -114,7 +114,7 @@ export default function CenteredGrid() {
                     </CardContent>
                     <CardActions>
                       <span className = "Iconos-proyects">
-                      <a className = "gitlab" href = "https://gitlab.com/etrr/1420-tel/2020/web/puckie" target ="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                      <a className = "gitlab" href = "https://sg.puckie.com.ar/" target ="_blank"><i class="fas fa-external-link-square-alt"></i></a>
                       <a className = "gitlab" href = "https://gitlab.com/etrr/1420-tel/2020/web/puckie" target ="_blank"><i class="fab fa-gitlab"></i></a>
                       </span>
                     </CardActions>
@@ -163,7 +163,7 @@ export default function CenteredGrid() {
                       </Typography>
                       <Typography>
                         Portfolio web personal hecho con React JS, Firebase Cloud Firestore, Material UI y Boostrap.
-                        Proyecto hosteado en Netlify.<br></br>
+                        Proyecto hosteado en Netlify, el dominio fue adquirido en my.freenom.com.<br></br>
                         Desde aquí podrás ver mi CV, contactarme o conocer más sobre mi. 
                       </Typography>
                       <CardActions>

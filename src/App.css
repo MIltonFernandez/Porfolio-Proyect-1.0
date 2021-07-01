@@ -152,6 +152,14 @@ nav ul li {
   color: #f4cbb2;
 }
 
+.work {
+  color: grey;
+}
+
+.work :hover {
+  color: #f9ab00;
+}
+
 .rosa :hover {
   color: #ff97d9;
 }
